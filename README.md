@@ -4,7 +4,7 @@
 
 ```
 module "webapp" {
-  source           = "../class4"
+  source           = "shamal112mn/asg/aws"
   region           = "us-east-1"
   max_size         = "1"
   min_size         = "1"
